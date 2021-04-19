@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		38C18661262AEA6900E9E88D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18660262AEA6900E9E88D /* AppDelegate.swift */; };
 		38C18663262AEA6900E9E88D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18662262AEA6900E9E88D /* SceneDelegate.swift */; };
-		38C18665262AEA6900E9E88D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18664262AEA6900E9E88D /* ViewController.swift */; };
 		38C18668262AEA6900E9E88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C18666262AEA6900E9E88D /* Main.storyboard */; };
 		38C1866A262AEA7D00E9E88D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C18669262AEA7D00E9E88D /* Assets.xcassets */; };
 		38C1866D262AEA7E00E9E88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C1866B262AEA7E00E9E88D /* LaunchScreen.storyboard */; };
 		38C18678262AEA7E00E9E88D /* notasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18677262AEA7E00E9E88D /* notasTests.swift */; };
 		38C18683262AEA7E00E9E88D /* notasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18682262AEA7E00E9E88D /* notasUITests.swift */; };
+		38C18696262CE20E00E9E88D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18664262AEA6900E9E88D /* ViewController.swift */; };
+		38EDB355262D634700EAFBF3 /* EditarNotaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDB354262D634700EAFBF3 /* EditarNotaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		38C1867E262AEA7E00E9E88D /* notasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C18682262AEA7E00E9E88D /* notasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notasUITests.swift; sourceTree = "<group>"; };
 		38C18684262AEA7E00E9E88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EDB354262D634700EAFBF3 /* EditarNotaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarNotaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				38C18669262AEA7D00E9E88D /* Assets.xcassets */,
 				38C1866B262AEA7E00E9E88D /* LaunchScreen.storyboard */,
 				38C1866E262AEA7E00E9E88D /* Info.plist */,
+				38EDB354262D634700EAFBF3 /* EditarNotaViewController.swift */,
 			);
 			path = notas;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C18665262AEA6900E9E88D /* ViewController.swift in Sources */,
+				38C18696262CE20E00E9E88D /* ViewController.swift in Sources */,
 				38C18661262AEA6900E9E88D /* AppDelegate.swift in Sources */,
 				38C18663262AEA6900E9E88D /* SceneDelegate.swift in Sources */,
+				38EDB355262D634700EAFBF3 /* EditarNotaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
